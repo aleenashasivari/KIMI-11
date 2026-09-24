@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Chemistry Quiz - Ka & Kb</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="background">
+        <div class="bubble bubble1"></div>
+        <div class="bubble bubble2"></div>
+        <div class="bubble bubble3"></div>
+
+        <div class="molecule">⚛️</div>
+        <div class="flask">⚗️</div>
+        <div class="test-tube">🧪</div>
+    </div>
+
+    <main class="quiz-container">
+
+        <div class="header">
+            <div class="logo">🧪</div>
+
+            <h1>Chemistry Quiz</h1>
+
+            <p>Ka & Kb</p>
+        </div>
+
+        <div class="start-screen">
+
+            <h2>Mirë se erdhe! ⚗️</h2>
+
+            <p>
+                Testo njohuritë tua për acidet dhe bazat e dobëta.
+            </p>
+
+            <div class="info">
+                <div>📝 20 pyetje</div>
+                <div>⏱️ 15 minuta</div>
+                <div>🧪 Ka & Kb</div>
+            </div>
+
+            <button id="startBtn">
+                Fillo Quiz-in 🚀
+            </button>
+
+        </div>
+
+        <div class="quiz-screen hidden">
+
+            <div class="quiz-top">
+
+                <span id="questionNumber">
+                    Pyetja 1 / 20
+                </span>
+
+                <span id="timer">
+                    Koha: 15:00
+                </span>
+
+            </div>
+
+            <div class="progress">
+                <div id="progressBar"></div>
+            </div>
+
+            <div class="question-box">
+
+                <h2 id="question">
+                    Pyetja këtu
+                </h2>
+
+                <div id="answers"></div>
+
+            </div>
+
+            <button id="nextBtn">
+                Vazhdo →
+            </button>
+
+        </div>
+
+        <div class="result-screen hidden">
+
+            <div class="result-icon">
+                🧪
+            </div>
+
+            <h2>Quiz-i përfundoi!</h2>
+
+            <div id="score"></div>
+
+            <p id="resultMessage"></p>
+
+            <button id="restartBtn">
+                🔄 Provo përsëri
+            </button>
+
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
